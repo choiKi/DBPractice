@@ -74,7 +74,8 @@ class Date: Object {
     // 날짜와 점수를 기록하는 DB
     
     @objc dynamic var date: Date?
-    // 각 수행된 날짜 유일키
+    // 각 수행된 날짜
+    // 유일키 (같은 날에 계획 2개 있을 수 없음)
     
     @objc dynamic var allCnt: Int = 0
     // 해당날에 세운 총 계획 수
